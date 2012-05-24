@@ -1,0 +1,16 @@
+<div id="container" class="container">
+  <div class="row">
+    <div id="header" class="twelvecol last">
+      <div class="page-head"><%= title %></div>
+      <div class="sub-head">software development &amp; cloud computing consultant</div>
+    </div>
+  </div>
+  <% for (var rowIndex in rows) { %>
+    <div class="row">
+    <% for (var blockIndex in rows[rowIndex]) { %>
+      <%- rows[rowIndex][blockIndex] %>
+    <% } %>
+    </div>
+  <% } %>
+  </div>
+</div>

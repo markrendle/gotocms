@@ -1,0 +1,12 @@
+Attach to blob service...
+Attach to table service...
+Listening on port \\.\pipe\529ae54d-64a9-4eca-aae1-36143cd57df8
+index
+getBlobToText error:
+
+code:ResourceNotFound
+
+message:The specified resource does not exist.
+RequestId:fb32f3b2-9b3a-4d2d-ae9e-05eccf85acfe
+Time:2012-05-23T22:14:42.1718750Z
+
